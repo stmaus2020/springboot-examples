@@ -17,7 +17,7 @@ public class ConsumingWebServiceApplication {
   @Bean
   CommandLineRunner lookup(CountryClient quoteClient) {
     return args -> {
-      String country = "Spain";
+      String country = "Poland";
 
       if (args.length > 0) {
         country = args[0];
